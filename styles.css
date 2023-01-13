@@ -37,10 +37,16 @@ body {
     align-items: center;
 }
 
+.window-wrap {
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 .bb1 {
-  width: 10%;
-  height: 70%;
+    width: 10%;
+    height: 70%;
 }
 
 .bb1a {
@@ -120,11 +126,27 @@ body {
     background-color: var(--building-color4);
 }
 
+.bb4-window {
+    width: 18%;
+    height: 90%;
+    background-color: var(--window-color4);
+}
+
 /* FOREGROUND BUILDINGS - "fb" stands for "foreground building" */
 .fb1 {
     width: 10%;
     height: 60%;
     background-color: var(--building-color4);
+}
+
+.fb1b {
+    width: 60%;
+    height: 10%;
+}
+
+.fb1c {
+    width: 100%;
+    height: 80%;
 }
 
 .fb2 {
